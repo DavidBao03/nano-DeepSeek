@@ -48,22 +48,18 @@ HellaSwag evaluation script:
 python hellaswag.py
 ```
 
-## Results (Work in Progress) 📊
+## Results 📊
 
 ### Training Loss Progress
-| Training Step | Loss (Train) | Loss (Val) | 
-|---------------|--------------|------------|
-| 0             | -            | -          | 
-| 10k           | (pending)    | (pending)  |
-| 20k           | (pending)    | (pending)  |
+![alt](./assert/output.png)
 
 ### Benchmark Comparison
 | Model          | Params | Training Loss | HellaSwag (Acc.) |
 |----------------|--------|---------------|------------------|
-| **Nano DeepSeek** | 128M   | (training)    | (evaluating)     |
+| **Nano DeepSeek** | 128M   | 3.39   | 28.1%     |
 | GPT-2          | 117M   | 2.85          | 29.4%           |
-| GPT-2 Medium   | 345M   | 2.60          | 39.1%           |
-| GPT-3          | 175B   | 1.73          | 78.1%           |
+| GPT-2 Medium   | 350M   | 2.60          | 37.5%           |
+| GPT-3          | 124M   | 1.73          | 33.7%           |
 
 *Benchmark numbers shown for GPT series are reference values from published papers*
 
